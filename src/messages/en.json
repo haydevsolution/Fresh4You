@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "service": "Service",
+    "sustainability": "Sustainability",
+    "contact": "Contact"
+  },
+  "hero": {
+    "claim": "We live freshness.",
+    "subtitle": "Your reliable partner for premium fruits, vegetables, and fine foods – directly from the producer to you.",
+    "cta": "Discover now",
+    "ctaContact": "Get in touch"
+  },
+  "about": {
+    "tag": "About us",
+    "title": "Freshness is our tradition",
+    "text1": "Since our founding, Fresh4You has stood for the highest quality and freshness. As a regional produce dealer, we combine traditional values with modern service.",
+    "text2": "Our dedicated team ensures daily that only the best products find their way to our customers. We rely on close partnerships with regional producers and sustainable supply chains.",
+    "text3": "Quality you can taste – that's our promise to you.",
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "text": "Only the best products make it into our assortment."
+      },
+      "freshness": {
+        "title": "Freshness",
+        "text": "Daily deliveries guarantee maximum freshness."
+      },
+      "regional": {
+        "title": "Regional",
+        "text": "We rely on regional producers and short distances."
+      }
+    }
+  },
+  "products": {
+    "tag": "Products",
+    "title": "Variety that inspires",
+    "subtitle": "From crisp vegetables and aromatic herbs to exotic fruits – we leave nothing to be desired.",
+    "items": {
+      "vegetables": {
+        "title": "Vegetables",
+        "text": "Fresh seasonal vegetables – from tomatoes and peppers to root vegetables and leafy greens."
+      },
+      "fruits": {
+        "title": "Fruits",
+        "text": "Regional and exotic fruits in the best quality – from apples to citrus fruits."
+      },
+      "herbs": {
+        "title": "Herbs",
+        "text": "Fresh herbs for the perfect taste – basil, rosemary, parsley and more."
+      },
+      "sprouts": {
+        "title": "Sprouts & Shoots",
+        "text": "Nutrient-rich sprouts and shoots for a healthy and varied cuisine."
+      },
+      "mushrooms": {
+        "title": "Mushrooms",
+        "text": "Button mushrooms, porcini, chanterelles and other premium mushrooms in top quality."
+      },
+      "specialties": {
+        "title": "Specialties",
+        "text": "Dried fruits, nuts and edible flowers – special products for special dishes."
+      }
+    }
+  },
+  "service": {
+    "tag": "Service",
+    "title": "Service that convinces",
+    "subtitle": "We are more than just a supplier – we are your partner for fresh food.",
+    "items": {
+      "delivery": {
+        "title": "Reliable Delivery",
+        "text": "Punctual delivery right to your door – fresh and reliable every day."
+      },
+      "consultation": {
+        "title": "Personal Consultation",
+        "text": "Our experienced team advises you individually on assortment and seasonal goods."
+      },
+      "flexibility": {
+        "title": "Flexible Assortment",
+        "text": "Customized orders to your wishes – we adapt to your needs."
+      },
+      "quality": {
+        "title": "Quality Guarantee",
+        "text": "Strict quality controls from producer to delivery."
+      }
+    }
+  },
+  "sustainability": {
+    "tag": "Sustainability",
+    "title": "Responsibility for tomorrow",
+    "text": "Sustainability is not a trend for us – it's our conviction. We consistently rely on short transport routes, regional partnerships, and environmentally friendly packaging.",
+    "items": {
+      "regional": {
+        "title": "Regional Partners",
+        "text": "Close cooperation with local producers for short distances."
+      },
+      "packaging": {
+        "title": "Sustainable Packaging",
+        "text": "Environmentally friendly and recyclable packaging solutions."
+      },
+      "resources": {
+        "title": "Resource-efficient",
+        "text": "Efficient logistics and minimal ecological footprint."
+      }
+    }
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Get in touch",
+    "subtitle": "Do you have questions or would you like to place an order? We look forward to your message.",
+    "phone": "Call us",
+    "phoneNumber": "+49 123 456 789 0",
+    "email": "Email us",
+    "emailAddress": "info@fresh4you.de",
+    "address": "Visit us",
+    "addressText": "Musterstraße 1, 12345 Musterstadt",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your message",
+      "callback": "Request callback",
+      "submit": "Send message",
+      "privacy": "By submitting, you agree to our privacy policy."
+    }
+  },
+  "footer": {
+    "description": "Your reliable partner for fresh fruits, vegetables, and fine foods.",
+    "quickLinks": "Quick Links",
+    "legalLinks": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "followUs": "Follow us",
+    "copyright": "© 2025 Fresh4You. All rights reserved."
+  }
+}

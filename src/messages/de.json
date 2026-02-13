@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "products": "Sortiment",
+    "service": "Service",
+    "sustainability": "Nachhaltigkeit",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "claim": "Wir leben Frische.",
+    "subtitle": "Ihr zuverlässiger Partner für erstklassiges Obst, Gemüse und Feinkost – direkt vom Erzeuger zu Ihnen.",
+    "cta": "Jetzt entdecken",
+    "ctaContact": "Kontakt aufnehmen"
+  },
+  "about": {
+    "tag": "Über uns",
+    "title": "Frische hat bei uns Tradition",
+    "text1": "Seit unserer Gründung steht Fresh4You für höchste Qualität und Frische. Als regionaler Gemüsehändler verbinden wir traditionelle Werte mit modernem Service.",
+    "text2": "Unser engagiertes Team sorgt täglich dafür, dass nur die besten Produkte den Weg zu unseren Kunden finden. Dabei setzen wir auf enge Partnerschaften mit regionalen Erzeugern und nachhaltige Lieferketten.",
+    "text3": "Qualität, die man schmeckt – das ist unser Versprechen an Sie.",
+    "values": {
+      "quality": {
+        "title": "Qualität",
+        "text": "Nur die besten Produkte schaffen es in unser Sortiment."
+      },
+      "freshness": {
+        "title": "Frische",
+        "text": "Tägliche Lieferungen garantieren maximale Frische."
+      },
+      "regional": {
+        "title": "Regional",
+        "text": "Wir setzen auf regionale Erzeuger und kurze Wege."
+      }
+    }
+  },
+  "products": {
+    "tag": "Sortiment",
+    "title": "Vielfalt, die begeistert",
+    "subtitle": "Von knackigem Gemüse über aromatische Kräuter bis hin zu exotischen Früchten – bei uns bleiben keine Wünsche offen.",
+    "items": {
+      "vegetables": {
+        "title": "Gemüse",
+        "text": "Frisches Gemüse der Saison – von Tomaten und Paprika bis hin zu Wurzelgemüse und Blattgrün."
+      },
+      "fruits": {
+        "title": "Früchte",
+        "text": "Regionale und exotische Früchte in bester Qualität – von Äpfeln bis Zitrusfrüchte."
+      },
+      "herbs": {
+        "title": "Kräuter",
+        "text": "Frische Kräuter für den perfekten Geschmack – Basilikum, Rosmarin, Petersilie und mehr."
+      },
+      "sprouts": {
+        "title": "Sprossen & Keime",
+        "text": "Nährstoffreiche Sprossen und Keime für eine gesunde und abwechslungsreiche Küche."
+      },
+      "mushrooms": {
+        "title": "Pilze",
+        "text": "Champignons, Steinpilze, Pfifferlinge und weitere Edelpilze in Premium-Qualität."
+      },
+      "specialties": {
+        "title": "Spezialitäten",
+        "text": "Trockenfrüchte, Nüsse und essbare Blüten – besondere Produkte für besondere Gerichte."
+      }
+    }
+  },
+  "service": {
+    "tag": "Service",
+    "title": "Service, der überzeugt",
+    "subtitle": "Wir sind mehr als nur ein Lieferant – wir sind Ihr Partner für frische Lebensmittel.",
+    "items": {
+      "delivery": {
+        "title": "Zuverlässige Lieferung",
+        "text": "Pünktliche Lieferung direkt an Ihre Tür – täglich frisch und zuverlässig."
+      },
+      "consultation": {
+        "title": "Persönliche Beratung",
+        "text": "Unser erfahrenes Team berät Sie individuell zu Sortiment und Saisonware."
+      },
+      "flexibility": {
+        "title": "Flexibles Sortiment",
+        "text": "Maßgeschneiderte Bestellungen nach Ihren Wünschen – wir richten uns nach Ihnen."
+      },
+      "quality": {
+        "title": "Qualitätsgarantie",
+        "text": "Strenge Qualitätskontrollen vom Erzeuger bis zur Auslieferung."
+      }
+    }
+  },
+  "sustainability": {
+    "tag": "Nachhaltigkeit",
+    "title": "Verantwortung für morgen",
+    "text": "Nachhaltigkeit ist kein Trend für uns – es ist unsere Überzeugung. Wir setzen konsequent auf kurze Transportwege, regionale Partnerschaften und umweltschonende Verpackungen.",
+    "items": {
+      "regional": {
+        "title": "Regionale Partner",
+        "text": "Enge Zusammenarbeit mit lokalen Erzeugern für kurze Wege."
+      },
+      "packaging": {
+        "title": "Nachhaltige Verpackung",
+        "text": "Umweltfreundliche und recycelbare Verpackungslösungen."
+      },
+      "resources": {
+        "title": "Ressourcenschonend",
+        "text": "Effiziente Logistik und minimaler ökologischer Fußabdruck."
+      }
+    }
+  },
+  "contact": {
+    "tag": "Kontakt",
+    "title": "Sprechen Sie uns an",
+    "subtitle": "Haben Sie Fragen oder möchten Sie eine Bestellung aufgeben? Wir freuen uns auf Ihre Nachricht.",
+    "phone": "Rufen Sie uns an",
+    "phoneNumber": "+49 123 456 789 0",
+    "email": "Schreiben Sie uns",
+    "emailAddress": "info@fresh4you.de",
+    "address": "Besuchen Sie uns",
+    "addressText": "Musterstraße 1, 12345 Musterstadt",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Ihre Nachricht",
+      "callback": "Rückruf gewünscht",
+      "submit": "Nachricht senden",
+      "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
+    }
+  },
+  "footer": {
+    "description": "Ihr zuverlässiger Partner für frisches Obst, Gemüse und Feinkost.",
+    "quickLinks": "Quick Links",
+    "legalLinks": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "followUs": "Folgen Sie uns",
+    "copyright": "© 2025 Fresh4You. Alle Rechte vorbehalten."
+  }
+}
