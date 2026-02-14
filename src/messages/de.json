@@ -12,6 +12,38 @@
     "cta": "Jetzt entdecken",
     "ctaContact": "Kontakt aufnehmen"
   },
+  "customers": {
+    "tag": "Unsere Kunden",
+    "title": "Sie vertrauen auf uns",
+    "more": "und viele mehr"
+  },
+  "delivery": {
+    "tag": "Lieferservice",
+    "title": "Zuverlässig. Frisch. Direkt zu Ihnen.",
+    "subtitle": "Mit unserer eigenen Lieferflotte bringen wir täglich frisches Obst und Gemüse zu Gastronomen, Hotels und Großküchen im Großraum Stuttgart.",
+    "description": "Unsere moderne Fahrzeugflotte steht jeden Morgen bereit, um Ihre Bestellung pünktlich und in bester Qualität zu liefern. Ob Restaurant, Kantine oder Catering – wir beliefern Sie zuverlässig im gesamten Großraum Stuttgart und darüber hinaus.",
+    "imageAlt": "Fresh for you Lieferflotte – Unsere Fahrzeuge im Einsatz",
+    "radiusBadge": "Lieferradius",
+    "cta": "Lieferung anfragen",
+    "features": {
+      "punctual": {
+        "title": "Pünktlich",
+        "text": "Tägliche Lieferung am frühen Morgen – damit alles rechtzeitig da ist."
+      },
+      "fresh": {
+        "title": "Garantiert frisch",
+        "text": "Kühlkette vom Großmarkt bis zu Ihrer Küche – ohne Kompromisse."
+      },
+      "radius": {
+        "title": "Stuttgart & 40+ km",
+        "text": "Wir beliefern den gesamten Großraum Stuttgart und umliegende Regionen."
+      },
+      "fleet": {
+        "title": "Eigene Flotte",
+        "text": "Mehrere Kühlfahrzeuge im Einsatz – flexibel und zuverlässig."
+      }
+    }
+  },
   "about": {
     "tag": "Über uns",
     "title": "Frische hat bei uns Tradition",
@@ -27,10 +59,32 @@
         "title": "Frische",
         "text": "Tägliche Lieferungen garantieren maximale Frische."
       },
-      "regional": {
-        "title": "Regional",
-        "text": "Wir setzen auf regionale Erzeuger und kurze Wege."
+      "personal": {
+        "title": "Persönlich",
+        "text": "Individuelle Beratung und ein direkter Draht zu jedem Kunden."
       }
+    },
+    "history": {
+      "heading": "Unsere Geschichte",
+      "timeline": {
+        "2018": {
+          "title": "Der Anfang",
+          "text": "Mit einem einzigen Kunden und einer großen Vision starteten wir 2018 unseren Lieferservice. Jeden Morgen frisches Obst und Gemüse direkt vom Großmarkt Stuttgart – zuverlässig und in bester Qualität."
+        },
+        "2019": {
+          "title": "Wachstum durch Vertrauen",
+          "text": "Mundpropaganda war unser bestes Marketing. Innerhalb eines Jahres belieferten wir bereits mehrere Restaurants und Kantinen im Raum Stuttgart."
+        },
+        "2021": {
+          "title": "Eigene Flotte",
+          "text": "Mit steigender Nachfrage investierten wir in unsere eigene Kühlfahrzeugflotte, um noch mehr Kunden zuverlässig und frisch beliefern zu können."
+        },
+        "today": {
+          "title": "Heute",
+          "text": "Fresh4You betreut zahlreiche Kunden aus Gastronomie, Hotellerie und Großküchen im gesamten Großraum Stuttgart und darüber hinaus – mit dem gleichen Anspruch an Qualität und persönlichem Service wie am ersten Tag."
+        }
+      },
+      "cta": "Unsere Kunden entdecken"
     }
   },
   "products": {
@@ -124,6 +178,64 @@
       "callback": "Rückruf gewünscht",
       "submit": "Nachricht senden",
       "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "responsible": {
+      "heading": "1. Verantwortlicher",
+      "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+      "company": "Fresh4You",
+      "person": "Ansprechpartner: Berdan Bangus",
+      "street": "Roter Stich 47",
+      "city": "70376 Stuttgart",
+      "country": "Deutschland",
+      "phone": "Telefon: +49 173 3865475"
+    },
+    "general": {
+      "heading": "2. Allgemeine Hinweise",
+      "text1": "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften (insbesondere der DSGVO).",
+      "text2": "Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich."
+    },
+    "collection": {
+      "heading": "3. Datenerfassung beim Besuch der Website",
+      "text": "Beim Aufrufen dieser Website werden durch den Hosting-Anbieter automatisch folgende Daten erfasst:",
+      "items": {
+        "ip": "IP-Adresse",
+        "date": "Datum und Uhrzeit der Anfrage",
+        "browser": "Browsertyp und Browserversion",
+        "os": "Verwendetes Betriebssystem",
+        "referrer": "Referrer-URL"
+      },
+      "purpose": "Diese Daten dienen ausschließlich der technischen Bereitstellung und Sicherheit der Website.",
+      "legal": "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und stabilen Website)."
+    },
+    "email": {
+      "heading": "4. Kontakt per E-Mail",
+      "text1": "Wenn Sie uns per E-Mail kontaktieren, werden die von Ihnen mitgeteilten Daten (z. B. Name, E-Mail-Adresse, Inhalt der Nachricht) gespeichert, um Ihre Anfrage zu bearbeiten.",
+      "text2": "Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+      "legal": "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bearbeitung Ihrer Anfrage)."
+    },
+    "storage": {
+      "heading": "5. Speicherdauer",
+      "text": "Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage erforderlich ist oder gesetzliche Aufbewahrungsfristen bestehen."
+    },
+    "rights": {
+      "heading": "6. Ihre Rechte",
+      "text": "Sie haben jederzeit das Recht auf:",
+      "items": {
+        "info": "Auskunft über Ihre gespeicherten Daten",
+        "correction": "Berichtigung unrichtiger Daten",
+        "deletion": "Löschung Ihrer Daten",
+        "restriction": "Einschränkung der Verarbeitung",
+        "portability": "Datenübertragbarkeit",
+        "objection": "Widerspruch gegen die Verarbeitung"
+      },
+      "complaint": "Außerdem steht Ihnen ein Beschwerderecht bei der zuständigen Datenschutzaufsichtsbehörde zu."
+    },
+    "ssl": {
+      "heading": "7. SSL- bzw. TLS-Verschlüsselung",
+      "text": "Diese Website nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \u201Ehttps://\u201C in der Adresszeile Ihres Browsers."
     }
   },
   "footer": {

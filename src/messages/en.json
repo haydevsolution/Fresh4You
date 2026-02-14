@@ -12,6 +12,38 @@
     "cta": "Discover now",
     "ctaContact": "Get in touch"
   },
+  "customers": {
+    "tag": "Our Customers",
+    "title": "They trust us",
+    "more": "and many more"
+  },
+  "delivery": {
+    "tag": "Delivery Service",
+    "title": "Reliable. Fresh. Straight to you.",
+    "subtitle": "With our own delivery fleet, we bring fresh fruits and vegetables daily to restaurants, hotels, and large kitchens in the greater Stuttgart area.",
+    "description": "Our modern vehicle fleet is ready every morning to deliver your order on time and in the best quality. Whether restaurant, canteen, or catering – we deliver reliably throughout the greater Stuttgart area and beyond.",
+    "imageAlt": "Fresh for you delivery fleet – Our vehicles in action",
+    "radiusBadge": "Delivery radius",
+    "cta": "Request delivery",
+    "features": {
+      "punctual": {
+        "title": "On time",
+        "text": "Daily delivery early in the morning – so everything arrives when you need it."
+      },
+      "fresh": {
+        "title": "Guaranteed fresh",
+        "text": "Cold chain from wholesale market to your kitchen – no compromises."
+      },
+      "radius": {
+        "title": "Stuttgart & 40+ km",
+        "text": "We deliver throughout the greater Stuttgart area and surrounding regions."
+      },
+      "fleet": {
+        "title": "Own fleet",
+        "text": "Multiple refrigerated vehicles in operation – flexible and reliable."
+      }
+    }
+  },
   "about": {
     "tag": "About us",
     "title": "Freshness is our tradition",
@@ -27,10 +59,32 @@
         "title": "Freshness",
         "text": "Daily deliveries guarantee maximum freshness."
       },
-      "regional": {
-        "title": "Regional",
-        "text": "We rely on regional producers and short distances."
+      "personal": {
+        "title": "Personal",
+        "text": "Individual consultation and a direct line to every customer."
       }
+    },
+    "history": {
+      "heading": "Our Story",
+      "timeline": {
+        "2018": {
+          "title": "The Beginning",
+          "text": "With a single customer and a big vision, we launched our delivery service in 2018. Every morning, fresh fruits and vegetables straight from the Stuttgart wholesale market – reliable and in the best quality."
+        },
+        "2019": {
+          "title": "Growth Through Trust",
+          "text": "Word of mouth was our best marketing. Within a year, we were already supplying several restaurants and canteens in the Stuttgart area."
+        },
+        "2021": {
+          "title": "Our Own Fleet",
+          "text": "With growing demand, we invested in our own refrigerated vehicle fleet to serve even more customers reliably and with guaranteed freshness."
+        },
+        "today": {
+          "title": "Today",
+          "text": "Fresh4You serves numerous clients from restaurants, hotels, and large kitchens throughout the greater Stuttgart area and beyond – with the same commitment to quality and personal service as on day one."
+        }
+      },
+      "cta": "Discover our customers"
     }
   },
   "products": {
@@ -124,6 +178,64 @@
       "callback": "Request callback",
       "submit": "Send message",
       "privacy": "By submitting, you agree to our privacy policy."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "responsible": {
+      "heading": "1. Data Controller",
+      "text": "The party responsible for data processing on this website is:",
+      "company": "Fresh4You",
+      "person": "Contact person: Berdan Bangus",
+      "street": "Roter Stich 47",
+      "city": "70376 Stuttgart",
+      "country": "Germany",
+      "phone": "Phone: +49 173 3865475"
+    },
+    "general": {
+      "heading": "2. General Information",
+      "text1": "The protection of your personal data is of particular concern to us. We treat your personal data confidentially and in accordance with the statutory data protection regulations (in particular the GDPR).",
+      "text2": "The use of our website is generally possible without providing personal data."
+    },
+    "collection": {
+      "heading": "3. Data Collection When Visiting the Website",
+      "text": "When accessing this website, the following data is automatically collected by the hosting provider:",
+      "items": {
+        "ip": "IP address",
+        "date": "Date and time of the request",
+        "browser": "Browser type and version",
+        "os": "Operating system used",
+        "referrer": "Referrer URL"
+      },
+      "purpose": "This data is used exclusively for the technical provision and security of the website.",
+      "legal": "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in a secure and stable website)."
+    },
+    "email": {
+      "heading": "4. Contact via Email",
+      "text1": "If you contact us by email, the data you provide (e.g. name, email address, content of the message) will be stored in order to process your inquiry.",
+      "text2": "We will not share this data without your consent.",
+      "legal": "The legal basis is Art. 6(1)(b) GDPR (processing of your inquiry)."
+    },
+    "storage": {
+      "heading": "5. Data Retention",
+      "text": "Personal data is only stored for as long as is necessary to process your inquiry or as required by statutory retention periods."
+    },
+    "rights": {
+      "heading": "6. Your Rights",
+      "text": "You have the right at any time to:",
+      "items": {
+        "info": "Access your stored data",
+        "correction": "Rectification of inaccurate data",
+        "deletion": "Deletion of your data",
+        "restriction": "Restriction of processing",
+        "portability": "Data portability",
+        "objection": "Object to processing"
+      },
+      "complaint": "You also have the right to lodge a complaint with the competent data protection supervisory authority."
+    },
+    "ssl": {
+      "heading": "7. SSL/TLS Encryption",
+      "text": "For security reasons, this website uses SSL/TLS encryption. You can recognize an encrypted connection by \"https://\" in the address bar of your browser."
     }
   },
   "footer": {

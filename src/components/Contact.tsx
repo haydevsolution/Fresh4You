@@ -9,7 +9,7 @@ export default function Contact() {
   const [callback, setCallback] = useState(false);
 
   return (
-    <section id="contact" className="bg-surface py-24 lg:py-32">
+    <section id="contact" className="bg-surface py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -18,8 +18,8 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
-          <span className="mb-3 inline-block rounded-full bg-accent/20 px-4 py-1 text-sm font-semibold text-primary">
-            {t("tag")}
+          <span className="mb-3 inline-block text-lg font-semibold text-accent">
+            — {t("tag")}
           </span>
           <h2 className="font-display mb-4 text-3xl font-bold text-text sm:text-4xl lg:text-5xl">
             {t("title")}

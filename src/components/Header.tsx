@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -15,13 +15,49 @@ export default function Header() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const lastScrollY = useRef(0);
+  const scrollAccum = useRef(0);
 
   const isHome = pathname === "/";
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
+    let ticking = false;
+    const HIDE_THRESHOLD = 120;
+    const SHOW_THRESHOLD = 40;
+
+    const handleScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const currentY = window.scrollY;
+        const delta = currentY - lastScrollY.current;
+
+        setScrolled(currentY > 50);
+
+        if (currentY < 50) {
+          setVisible(true);
+          scrollAccum.current = 0;
+        } else if (delta > 0) {
+          // Scrolling down: accumulate positive
+          scrollAccum.current = Math.max(0, scrollAccum.current) + delta;
+          if (scrollAccum.current > HIDE_THRESHOLD) {
+            setVisible(false);
+          }
+        } else if (delta < 0) {
+          // Scrolling up: accumulate negative
+          scrollAccum.current = Math.min(0, scrollAccum.current) + delta;
+          if (scrollAccum.current < -SHOW_THRESHOLD) {
+            setVisible(true);
+          }
+        }
+
+        lastScrollY.current = currentY;
+        ticking = false;
+      });
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -31,20 +67,27 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
+      className={`fixed top-0 left-0 z-50 w-full transition-transform duration-500 ease-in-out ${
+        visible ? "translate-y-0" : "-translate-y-full"
+      } ${
         scrolled || !isHome
           ? "bg-primary-dark/95 shadow-lg backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div className="flex w-full items-center px-4 py-1 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-white">
-          Fresh<span className="text-accent">4</span>You
+        <Link href="/" className="shrink-0">
+          <img
+            src="/images/Logo.png"
+            alt="fresh for you – obst & gemüse"
+            className="h-20 w-auto sm:h-24"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden items-center gap-8 md:flex">
+        {/* Desktop Nav – centered */}
+        <nav className="hidden flex-1 items-center justify-center gap-8 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.key}
@@ -58,11 +101,15 @@ export default function Header() {
               {t(item.key)}
             </Link>
           ))}
-          <LanguageSwitcher />
         </nav>
 
+        {/* Language Switcher – right side */}
+        <div className="hidden shrink-0 md:block">
+          <LanguageSwitcher />
+        </div>
+
         {/* Mobile Hamburger */}
-        <div className="flex items-center gap-3 md:hidden">
+        <div className="ml-auto flex items-center gap-3 md:hidden">
           <LanguageSwitcher />
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
