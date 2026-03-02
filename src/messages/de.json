@@ -165,11 +165,11 @@
     "title": "Sprechen Sie uns an",
     "subtitle": "Haben Sie Fragen oder möchten Sie eine Bestellung aufgeben? Wir freuen uns auf Ihre Nachricht.",
     "phone": "Rufen Sie uns an",
-    "phoneNumber": "+49 123 456 789 0",
+    "phoneNumber": "0711 7157283",
     "email": "Schreiben Sie uns",
-    "emailAddress": "info@fresh4you.de",
+    "emailAddress": "info@freshforyou.de",
     "address": "Besuchen Sie uns",
-    "addressText": "Musterstraße 1, 12345 Musterstadt",
+    "addressText": "Langwiesenweg 30, 70327 Stuttgart",
     "form": {
       "name": "Name",
       "email": "E-Mail",
@@ -177,6 +177,9 @@
       "message": "Ihre Nachricht",
       "callback": "Rückruf gewünscht",
       "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet! Wir melden uns in Kürze bei Ihnen.",
+      "error": "Leider konnte Ihre Nachricht nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per Telefon.",
       "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
     }
   },
@@ -187,10 +190,11 @@
       "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
       "company": "Fresh4You",
       "person": "Ansprechpartner: Berdan Bangus",
-      "street": "Roter Stich 47",
-      "city": "70376 Stuttgart",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart",
       "country": "Deutschland",
-      "phone": "Telefon: +49 173 3865475"
+      "phone": "Telefon: 0711 7157283",
+      "email": "E-Mail: info@freshforyou.de"
     },
     "general": {
       "heading": "2. Allgemeine Hinweise",
@@ -236,6 +240,49 @@
     "ssl": {
       "heading": "7. SSL- bzw. TLS-Verschlüsselung",
       "text": "Diese Website nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \u201Ehttps://\u201C in der Adresszeile Ihres Browsers."
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "section1": {
+      "heading": "Angaben gem\u00e4\u00df \u00a7 5 TMG",
+      "company": "Fresh4You",
+      "person": "Inhaber: Berdan Bangus",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart",
+      "country": "Deutschland"
+    },
+    "section2": {
+      "heading": "Kontakt",
+      "phone": "Telefon: 0711 7157283",
+      "email": "E-Mail: info@freshforyou.de"
+    },
+    "section3": {
+      "heading": "Umsatzsteuer-ID",
+      "text": "Umsatzsteuer-Identifikationsnummer gem\u00e4\u00df \u00a7 27a Umsatzsteuergesetz: wird nachgereicht"
+    },
+    "section4": {
+      "heading": "Verantwortlich f\u00fcr den Inhalt nach \u00a7 55 Abs. 2 RSt",
+      "person": "Berdan Bangus",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart"
+    },
+    "section5": {
+      "heading": "Streitschlichtung",
+      "text1": "Die Europ\u00e4ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/",
+      "text2": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    "section6": {
+      "heading": "Haftung f\u00fcr Inhalte",
+      "text": "Als Diensteanbieter sind wir gem\u00e4\u00df \u00a7 7 Abs. 1 TMG f\u00fcr eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach \u00a7\u00a7 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, \u00fcbermittelte oder gespeicherte fremde Informationen zu \u00fcberwachen oder nach Umst\u00e4nden zu forschen, die auf eine rechtswidrige T\u00e4tigkeit hinweisen."
+    },
+    "section7": {
+      "heading": "Haftung f\u00fcr Links",
+      "text": "Unser Angebot enth\u00e4lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k\u00f6nnen wir f\u00fcr diese fremden Inhalte auch keine Gew\u00e4hr \u00fcbernehmen. F\u00fcr die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+    },
+    "section8": {
+      "heading": "Urheberrecht",
+      "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf\u00e4ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au\u00dferhalb der Grenzen des Urheberrechtes bed\u00fcrfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
     }
   },
   "footer": {

@@ -42,6 +42,8 @@ export default function Privacy() {
             <br />
             <br />
             {t("responsible.phone")}
+            <br />
+            {t("responsible.email")}
           </address>
         </div>
 

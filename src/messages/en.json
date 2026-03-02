@@ -165,11 +165,11 @@
     "title": "Get in touch",
     "subtitle": "Do you have questions or would you like to place an order? We look forward to your message.",
     "phone": "Call us",
-    "phoneNumber": "+49 123 456 789 0",
+    "phoneNumber": "0711 7157283",
     "email": "Email us",
-    "emailAddress": "info@fresh4you.de",
+    "emailAddress": "info@freshforyou.de",
     "address": "Visit us",
-    "addressText": "Musterstraße 1, 12345 Musterstadt",
+    "addressText": "Langwiesenweg 30, 70327 Stuttgart",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -177,6 +177,9 @@
       "message": "Your message",
       "callback": "Request callback",
       "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully! We will get back to you shortly.",
+      "error": "Unfortunately, your message could not be sent. Please try again or contact us directly by phone.",
       "privacy": "By submitting, you agree to our privacy policy."
     }
   },
@@ -187,10 +190,11 @@
       "text": "The party responsible for data processing on this website is:",
       "company": "Fresh4You",
       "person": "Contact person: Berdan Bangus",
-      "street": "Roter Stich 47",
-      "city": "70376 Stuttgart",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart",
       "country": "Germany",
-      "phone": "Phone: +49 173 3865475"
+      "phone": "Phone: 0711 7157283",
+      "email": "Email: info@freshforyou.de"
     },
     "general": {
       "heading": "2. General Information",
@@ -236,6 +240,49 @@
     "ssl": {
       "heading": "7. SSL/TLS Encryption",
       "text": "For security reasons, this website uses SSL/TLS encryption. You can recognize an encrypted connection by \"https://\" in the address bar of your browser."
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "section1": {
+      "heading": "Information according to \u00a7 5 TMG",
+      "company": "Fresh4You",
+      "person": "Owner: Berdan Bangus",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart",
+      "country": "Germany"
+    },
+    "section2": {
+      "heading": "Contact",
+      "phone": "Phone: 0711 7157283",
+      "email": "Email: info@freshforyou.de"
+    },
+    "section3": {
+      "heading": "VAT ID",
+      "text": "VAT identification number according to \u00a7 27a of the German VAT Act: to be provided"
+    },
+    "section4": {
+      "heading": "Responsible for content according to \u00a7 55 Abs. 2 RStV",
+      "person": "Berdan Bangus",
+      "street": "Langwiesenweg 30",
+      "city": "70327 Stuttgart"
+    },
+    "section5": {
+      "heading": "Dispute Resolution",
+      "text1": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/",
+      "text2": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    },
+    "section6": {
+      "heading": "Liability for Content",
+      "text": "As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to \u00a7 7 (1) TMG. According to \u00a7\u00a7 8 to 10 TMG, however, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity."
+    },
+    "section7": {
+      "heading": "Liability for Links",
+      "text": "Our offer contains links to external websites of third parties, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for the content of the linked pages."
+    },
+    "section8": {
+      "heading": "Copyright",
+      "text": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any form of commercialization of such material beyond the scope of copyright law require the written consent of the respective author or creator."
     }
   },
   "footer": {
