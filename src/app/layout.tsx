@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     "Ihr zuverlässiger Partner für erstklassiges Obst, Gemüse und Feinkost. Qualität, Frische und Service aus einer Hand.",
   keywords:
     "Gemüse, Obst, Frische, Lieferant, Regional, Nachhaltigkeit, Fresh4You",
+  icons: {
+    icon: "/images/FavIcon_Fresh4you.png",
+    apple: "/images/FavIcon_Fresh4you.png",
+  },
 };
 
 type Props = {

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 const customers = [
-  "Glashaus Bären",
+  "Gasthaus Bären",
   "Roberts",
   "Brauhaus eins",
   "Monsieur Baguette",
