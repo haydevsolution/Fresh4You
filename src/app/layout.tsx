@@ -22,8 +22,11 @@ export const metadata: Metadata = {
   keywords:
     "Gemüse, Obst, Frische, Lieferant, Regional, Nachhaltigkeit, Fresh4You",
   icons: {
-    icon: "/images/FavIcon_Fresh4you.png",
-    apple: "/images/FavIcon_Fresh4you.png",
+    icon: [
+      { url: "/images/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/images/favicon-192.png",
   },
 };
 

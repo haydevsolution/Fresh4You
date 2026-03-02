@@ -72,7 +72,7 @@ export default function Delivery() {
             />
             {/* Badge overlay */}
             <div className="absolute bottom-4 left-4 rounded-xl bg-primary/90 px-5 py-3 backdrop-blur-sm">
-              <span className="text-2xl font-bold text-white">40+ km</span>
+              <span className="text-2xl font-bold text-white">100+ km</span>
               <span className="ml-2 text-sm text-white/80">{t("radiusBadge")}</span>
             </div>
           </motion.div>
